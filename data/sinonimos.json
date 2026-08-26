@@ -1,0 +1,10 @@
+{
+  "variador": ["convertidor", "drive", "vfd", "variador de frecuencia"],
+  "rodamiento": ["cojinete", "bearing", "rulemán"],
+  "electrovalvula": ["válvula solenoide", "valvula", "electroválvula"],
+  "motor": ["motor eléctrico", "motor electrico"],
+  "arrancador": ["arrancador suave", "softstarter", "soft starter"],
+  "cilindro": ["cilindro neumático", "actuador neumático", "actuador lineal"],
+  "soporte": ["soporte de pie", "chumacera", "unidad de rodamiento"],
+  "reparacion": ["reparación", "avería", "averia", "arreglo"]
+}
