@@ -21,6 +21,8 @@ import { EquivalenceTable } from "@/components/producto/equivalence-table";
 import { ProductCard } from "@/components/producto/product-card";
 import { CopyReferenceButton } from "@/components/producto/copy-reference-button";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo/schema";
+import { obtenerSesion } from "@/lib/auth/session";
+import { TrackOnMount } from "@/components/analitica/track-on-mount";
 
 export const revalidate = 3600;
 
@@ -69,6 +71,7 @@ export default async function FichaProductoPage({
 
   const familiaInfo = getFamiliaInfo(familia);
   const subfamiliaInfo = getSubfamiliaInfo(familia, subfamilia);
+  const sesion = await obtenerSesion();
   const equivalencias = await resolverEquivalencias(producto);
   const relacionados = await getProductosPorIds([
     ...producto.alternativas,
@@ -98,6 +101,26 @@ export default async function FichaProductoPage({
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(migas)) }}
       />
+
+      <TrackOnMount
+        evento="view_item"
+        parametros={{
+          items: [
+            {
+              item_id: producto.referencia,
+              item_name: producto.nombre,
+              item_brand: producto.marca,
+              price: producto.precioTarifa,
+            },
+          ],
+        }}
+      />
+      {sesion && (
+        <TrackOnMount evento="login_price_reveal" parametros={{ referencia: producto.referencia }} />
+      )}
+      {producto.stock === 0 && (
+        <TrackOnMount evento="stock_badge_seen" parametros={{ referencia: producto.referencia, estado: "bajo_pedido" }} />
+      )}
 
       <Breadcrumbs items={migas.slice(1)} />
 
@@ -138,7 +161,11 @@ export default async function FichaProductoPage({
 
           <StockBadge producto={producto} />
 
-          <PriceBlock precioTarifa={producto.precioTarifa} unidadVenta={producto.unidadVenta} />
+          <PriceBlock
+            precioTarifa={producto.precioTarifa}
+            unidadVenta={producto.unidadVenta}
+            sesion={sesion ? { descuentoPorcentaje: sesion.descuentoPorcentaje } : null}
+          />
 
           <AddToCart producto={producto} />
 

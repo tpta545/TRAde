@@ -23,6 +23,7 @@ type CartContextValue = {
   abrirCarrito: () => void;
   cerrarCarrito: () => void;
   añadir: (producto: Producto, cantidad?: number) => void;
+  añadirItem: (item: CartItem) => void;
   quitar: (productoId: string) => void;
   actualizarCantidad: (productoId: string, cantidad: number) => void;
   vaciar: () => void;
@@ -62,32 +63,36 @@ export function CartProvider({ children }: { children: ReactNode }) {
     }
   }, [items, hidratado]);
 
-  const añadir = (producto: Producto, cantidad = producto.multiploVenta) => {
+  /** Añade una línea ya formada (usado al repetir un pedido pasado, sin pasar por el catálogo). */
+  const añadirItem = (nuevoItem: CartItem) => {
     setItems((actual) => {
-      const existente = actual.find((item) => item.productoId === producto.id);
+      const existente = actual.find((item) => item.productoId === nuevoItem.productoId);
       if (existente) {
         return actual.map((item) =>
-          item.productoId === producto.id
-            ? { ...item, cantidad: item.cantidad + cantidad }
+          item.productoId === nuevoItem.productoId
+            ? { ...item, cantidad: item.cantidad + nuevoItem.cantidad }
             : item,
         );
       }
-      const nuevoItem: CartItem = {
-        productoId: producto.id,
-        slug: producto.slug,
-        referencia: producto.referencia,
-        nombre: producto.nombre,
-        marca: producto.marca,
-        precioTarifa: producto.precioTarifa,
-        unidadVenta: producto.unidadVenta,
-        multiploVenta: producto.multiploVenta,
-        imagenUrl: producto.imagenes[0]?.url ?? "/productos/placeholder.svg",
-        bajoPedido: producto.stock <= 0,
-        cantidad,
-      };
       return [...actual, nuevoItem];
     });
     setAbierto(true);
+  };
+
+  const añadir = (producto: Producto, cantidad = producto.multiploVenta) => {
+    añadirItem({
+      productoId: producto.id,
+      slug: producto.slug,
+      referencia: producto.referencia,
+      nombre: producto.nombre,
+      marca: producto.marca,
+      precioTarifa: producto.precioTarifa,
+      unidadVenta: producto.unidadVenta,
+      multiploVenta: producto.multiploVenta,
+      imagenUrl: producto.imagenes[0]?.url ?? "/productos/placeholder.svg",
+      bajoPedido: producto.stock <= 0,
+      cantidad,
+    });
   };
 
   const quitar = (productoId: string) => {
@@ -122,6 +127,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         abrirCarrito: () => setAbierto(true),
         cerrarCarrito: () => setAbierto(false),
         añadir,
+        añadirItem,
         quitar,
         actualizarCantidad,
         vaciar,
