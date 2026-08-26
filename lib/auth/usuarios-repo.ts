@@ -2,13 +2,14 @@ import "server-only";
 import { crearColeccion } from "@/lib/db/json-store";
 import { hashPassword } from "@/lib/auth/passwords";
 import type { Usuario } from "@/lib/auth/usuario";
+import { siteConfig } from "@/config/site";
 
 export const coleccionUsuarios = crearColeccion<Usuario>("usuarios");
 
 /**
- * Dos cuentas DEMO (misma empresa ficticia, un comprador y un aprobador)
- * para poder probar el flujo multiusuario sin datos reales de cliente.
- * Se crean solo si el almacén está vacío. Contraseña de ambas: "demo1234".
+ * Tres cuentas DEMO (misma empresa ficticia salvo la admin) para probar el
+ * flujo multiusuario y el panel de insights sin datos reales de cliente.
+ * Se crean solo si el almacén está vacío. Contraseña de las tres: "demo1234".
  */
 export async function asegurarUsuariosDemo(): Promise<void> {
   const existentes = await coleccionUsuarios.todos();
@@ -41,6 +42,20 @@ export async function asegurarUsuariosDemo(): Promise<void> {
     rol: "aprobador",
     estado: "activa",
     descuentoPorcentaje: 15,
+    limiteImporteSinAprobacion: null,
+    fechaAlta: ahora,
+  });
+
+  await coleccionUsuarios.insertar({
+    email: "admin@grupotrade.es",
+    passwordHash,
+    nombre: "Admin Demo",
+    empresa: siteConfig.razonSocial,
+    cif: "<<PENDIENTE: CIF de Transmisiones del Este S.L.>>",
+    telefono: siteConfig.contacto.telefono,
+    rol: "admin",
+    estado: "activa",
+    descuentoPorcentaje: 0,
     limiteImporteSinAprobacion: null,
     fechaAlta: ahora,
   });

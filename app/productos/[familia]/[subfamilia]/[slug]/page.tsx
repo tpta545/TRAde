@@ -24,6 +24,7 @@ import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo/schema";
 import { obtenerSesion } from "@/lib/auth/session";
 import { TrackOnMount } from "@/components/analitica/track-on-mount";
 import { getTodosLosArticulos } from "@/lib/data/blog";
+import { guardarLead } from "@/lib/leads/store";
 
 const FAMILIA_A_CATEGORIA_BLOG: Record<string, string> = {
   "motores-electricos": "Motores eléctricos",
@@ -86,6 +87,11 @@ export default async function FichaProductoPage({
     ...producto.recambios,
   ]);
   const esReparable = FAMILIAS_REPARABLES.includes(familia);
+  if (producto.stock === 0) {
+    // Sin await: no debe retrasar el render por escribir en el log de insights.
+    void guardarLead("vista_sin_stock", { referencia: producto.referencia, nombre: producto.nombre });
+  }
+
   const categoriaBlog = FAMILIA_A_CATEGORIA_BLOG[familia];
   const articulosRelacionados = categoriaBlog
     ? (await getTodosLosArticulos()).filter((a) => a.categoria === categoriaBlog)

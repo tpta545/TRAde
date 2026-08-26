@@ -39,10 +39,10 @@ export function FormularioLogin() {
       {!estado.ok && estado.mensaje && <p className="text-sm text-trade-red">{estado.mensaje}</p>}
       <SubmitButton>Iniciar sesión</SubmitButton>
       <p className="rounded-md bg-trade-gray-050 p-3 text-xs text-trade-gray-500">
-        Cuenta de demostración: <span className="font-mono">compras@clientedemo.es</span> /{" "}
-        <span className="font-mono">demo1234</span> (rol comprador) o{" "}
-        <span className="font-mono">aprobador@clientedemo.es</span> con la misma contraseña (rol
-        aprobador).
+        Cuentas de demostración (contraseña <span className="font-mono">demo1234</span>):{" "}
+        <span className="font-mono">compras@clientedemo.es</span> (comprador),{" "}
+        <span className="font-mono">aprobador@clientedemo.es</span> (aprobador),{" "}
+        <span className="font-mono">admin@grupotrade.es</span> (admin, panel de insights).
       </p>
     </form>
   );

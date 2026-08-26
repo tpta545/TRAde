@@ -37,6 +37,14 @@ export default async function CuentaLayout({ children }: { children: React.React
               {enlace.label}
             </Link>
           ))}
+          {sesion.rol === "admin" && (
+            <Link
+              href="/cuenta/admin/insights"
+              className="block rounded-md px-3 py-2 text-sm text-trade-gray-900 hover:bg-trade-gray-050"
+            >
+              Insights (admin)
+            </Link>
+          )}
         </nav>
         <form action={cerrarSesionAction} className="mt-4">
           <button type="submit" className="px-3 py-2 text-sm text-trade-gray-500 hover:text-trade-red">

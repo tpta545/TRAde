@@ -1,5 +1,5 @@
 import "server-only";
-import { appendFile, mkdir } from "node:fs/promises";
+import { appendFile, mkdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 /**
@@ -25,7 +25,20 @@ export type TipoLead =
   | "contacto"
   | "busqueda_sin_resultados"
   | "aprobacion_cuenta_b2b"
-  | "newsletter";
+  | "newsletter"
+  | "vista_sin_stock";
+
+export async function leerLeads(tipo: TipoLead): Promise<Record<string, unknown>[]> {
+  try {
+    const contenido = await readFile(join(DIRECTORIO_LEADS, `${tipo}.jsonl`), "utf-8");
+    return contenido
+      .split("\n")
+      .filter(Boolean)
+      .map((linea) => JSON.parse(linea) as Record<string, unknown>);
+  } catch {
+    return [];
+  }
+}
 
 export async function guardarLead(tipo: TipoLead, datos: Record<string, unknown>): Promise<void> {
   const entrada = {
