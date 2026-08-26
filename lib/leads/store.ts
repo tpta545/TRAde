@@ -24,7 +24,8 @@ export type TipoLead =
   | "oferta"
   | "contacto"
   | "busqueda_sin_resultados"
-  | "aprobacion_cuenta_b2b";
+  | "aprobacion_cuenta_b2b"
+  | "newsletter";
 
 export async function guardarLead(tipo: TipoLead, datos: Record<string, unknown>): Promise<void> {
   const entrada = {

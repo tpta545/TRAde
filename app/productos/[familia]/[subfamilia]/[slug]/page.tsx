@@ -23,6 +23,13 @@ import { CopyReferenceButton } from "@/components/producto/copy-reference-button
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo/schema";
 import { obtenerSesion } from "@/lib/auth/session";
 import { TrackOnMount } from "@/components/analitica/track-on-mount";
+import { getTodosLosArticulos } from "@/lib/data/blog";
+
+const FAMILIA_A_CATEGORIA_BLOG: Record<string, string> = {
+  "motores-electricos": "Motores eléctricos",
+  rodamientos: "Rodamientos",
+  "variadores-de-frecuencia": "Variadores de frecuencia",
+};
 
 export const revalidate = 3600;
 
@@ -79,6 +86,10 @@ export default async function FichaProductoPage({
     ...producto.recambios,
   ]);
   const esReparable = FAMILIAS_REPARABLES.includes(familia);
+  const categoriaBlog = FAMILIA_A_CATEGORIA_BLOG[familia];
+  const articulosRelacionados = categoriaBlog
+    ? (await getTodosLosArticulos()).filter((a) => a.categoria === categoriaBlog)
+    : [];
 
   const migas = [
     { nombre: "Productos", url: "/productos" },
@@ -241,6 +252,23 @@ export default async function FichaProductoPage({
                 <ProductCard key={relacionado.id} producto={relacionado} />
               ))}
             </div>
+          </section>
+        )}
+
+        {articulosRelacionados.length > 0 && (
+          <section>
+            <h2 className="mb-4 text-xl font-heading font-semibold text-trade-gray-900">
+              Te puede interesar
+            </h2>
+            <ul className="space-y-2">
+              {articulosRelacionados.map((articulo) => (
+                <li key={articulo.slug}>
+                  <Link href={`/blog/${articulo.slug}`} className="text-sm font-medium text-trade-red hover:underline">
+                    {articulo.titulo} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

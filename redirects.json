@@ -1,0 +1,8 @@
+[
+  {
+    "source": "__PENDIENTE__",
+    "destination": "/",
+    "permanent": true,
+    "_nota": "Placeholder de ejemplo. Sustituir por el listado real de URLs de grupotrade.es y trade.grupotrade.es antes de lanzar (Parte 4 y Parte 11 del prompt: 'pídeme el listado real antes de la Fase 3'). Cada entrada: { source: ruta antigua, destination: ruta nueva, permanent: true }. next.config.ts carga este fichero entero salvo la clave __PENDIENTE__."
+  }
+]

@@ -2,16 +2,19 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 import { getProductos, getFamilias, getMarcas, getCombinacionesMarcaFamilia } from "@/lib/data/productos";
 import { SUBFAMILIAS } from "@/lib/data/familias";
-import { getTodosLosArticulos } from "@/lib/data/blog"; // Fase 4
-
-const MAX_URLS_POR_SITEMAP = 45000;
+import { getTodosLosArticulos } from "@/lib/data/blog";
+import { getTodasLasSoluciones } from "@/lib/data/soluciones";
 
 /**
- * Sitemap partido por bloques (Parte 8: "sitemap.xml partido... + índice").
- * Next.js genera automáticamente el índice cuando generateSitemaps()
- * devuelve más de un id; con el catálogo actual todo cabe en un único
- * bloque, pero la función corta a MAX_URLS_POR_SITEMAP para cuando el
- * catálogo crezca a las 3.000+ referencias del objetivo de la Fase 5.
+ * Un único sitemap.xml mientras el catálogo quepa cómodo en él.
+ *
+ * <<PENDIENTE>>: la Parte 8 del prompt pide partir el sitemap en varios
+ * ficheros (sitemap-productos-1.xml...) + índice cuando el catálogo crezca
+ * hacia las 3.000+ referencias del objetivo de la Fase 5. Next.js soporta
+ * eso vía generateSitemaps(), pero cambia la URL a /sitemap/[id].xml en vez
+ * de /sitemap.xml — hay que actualizar también robots.txt cuando se active.
+ * Con 25 referencias de seed no compensa la complejidad todavía; el límite
+ * recomendado por sitemaps.org es 45.000 URLs por fichero.
  */
 async function todasLasUrls(): Promise<MetadataRoute.Sitemap> {
   const [productos, familias, marcas, combinaciones, articulos] = await Promise.all([
@@ -38,7 +41,16 @@ async function todasLasUrls(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    { url: `${siteConfig.urlBase}/soluciones`, changeFrequency: "monthly", priority: 0.4 },
   ];
+
+  for (const solucion of getTodasLasSoluciones()) {
+    urls.push({
+      url: `${siteConfig.urlBase}/soluciones/${solucion.slug}`,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    });
+  }
 
   for (const { familia } of familias) {
     urls.push({ url: `${siteConfig.urlBase}/productos/${familia}`, changeFrequency: "daily", priority: 0.8 });
@@ -88,14 +100,6 @@ async function todasLasUrls(): Promise<MetadataRoute.Sitemap> {
   return urls;
 }
 
-export async function generateSitemaps() {
-  const urls = await todasLasUrls();
-  const bloques = Math.max(1, Math.ceil(urls.length / MAX_URLS_POR_SITEMAP));
-  return Array.from({ length: bloques }, (_, id) => ({ id }));
-}
-
-export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
-  const urls = await todasLasUrls();
-  const inicio = id * MAX_URLS_POR_SITEMAP;
-  return urls.slice(inicio, inicio + MAX_URLS_POR_SITEMAP);
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  return todasLasUrls();
 }
