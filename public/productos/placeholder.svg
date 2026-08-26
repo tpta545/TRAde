@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#F6F7F8"/>
+  <rect x="60" y="60" width="880" height="880" fill="none" stroke="#E4E6E9" stroke-width="4"/>
+  <g fill="none" stroke="#6B7078" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="500" cy="470" r="160"/>
+    <circle cx="500" cy="470" r="55"/>
+    <path d="M500 250 v60 M500 630 v60 M280 470 h60 M660 470 h60 M340 310 l42 42 M660 630 l-42 -42 M660 310 l-42 42 M340 630 l42 -42"/>
+  </g>
+  <text x="500" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#6B7078">Foto pendiente — TRADE</text>
+</svg>
