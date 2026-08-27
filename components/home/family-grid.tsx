@@ -2,14 +2,7 @@ import Link from "next/link";
 import { getFamilias } from "@/lib/data/productos";
 import { getFamiliaInfo } from "@/lib/data/familias";
 import { ImagenGenerada } from "@/components/media/imagen-generada";
-
-const FAMILIA_A_IMAGEN: Record<string, string> = {
-  rodamientos: "fam-rodamientos",
-  "variadores-de-frecuencia": "fam-variadores",
-  "motores-electricos": "fam-motores-electricos",
-  neumatica: "fam-neumatica",
-  "arrancadores-y-proteccion": "fam-arrancadores",
-};
+import { FAMILIA_A_IMAGEN } from "@/lib/img/mapeos";
 
 export async function FamilyGrid() {
   const familias = await getFamilias();
