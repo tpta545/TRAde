@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -40,3 +41,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .data/
+
+# pipeline de imágenes (Fase V): los originales de Gemini son grandes y se
+# regeneran desde el manifiesto; lo que sirve la web (public/img/generated/)
+# sí se versiona.
+/public/img/raw/*
+!/public/img/raw/.gitkeep
