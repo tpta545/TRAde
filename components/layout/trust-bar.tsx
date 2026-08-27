@@ -12,7 +12,7 @@ export function TrustBar() {
   ];
 
   return (
-    <div className="border-y border-trade-gray-200 bg-trade-gray-050">
+    <div className="border-b border-trade-gray-200 bg-trade-white">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-8 sm:px-6 md:grid-cols-4">
         {items.map((item, indice) => {
           const Icono = ICONOS[indice];

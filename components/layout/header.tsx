@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { Topbar } from "@/components/layout/topbar";
@@ -5,10 +8,24 @@ import { SearchOmnibox } from "@/components/layout/search-omnibox";
 import { CartButton } from "@/components/carrito/cart-drawer";
 
 export function Header() {
+  const [conSombra, setConSombra] = useState(false);
+
+  useEffect(() => {
+    const alScrollear = () => setConSombra(window.scrollY > 4);
+    alScrollear();
+    window.addEventListener("scroll", alScrollear, { passive: true });
+    return () => window.removeEventListener("scroll", alScrollear);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-40 border-b border-trade-gray-200 bg-trade-white">
+    <header
+      className={
+        "sticky top-0 z-40 border-b border-trade-gray-200 bg-trade-white transition-shadow duration-150 " +
+        (conSombra ? "shadow-[0_1px_2px_rgba(17,18,20,.06)]" : "")
+      }
+    >
       <Topbar />
-      <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-4 px-4 sm:px-6">
         <Link href="/" className="font-heading text-2xl font-bold tracking-tight text-trade-gray-900">
           {siteConfig.marca}
         </Link>

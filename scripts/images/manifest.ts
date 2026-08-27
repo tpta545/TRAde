@@ -282,6 +282,19 @@ export const IMAGE_MANIFEST: ImageAsset[] = [
     replaceWithReal: true,
   },
   {
+    id: "fam-arrancadores",
+    usage: "Tarjeta de familia: Arrancadores y protección",
+    prompt:
+      "A generic industrial soft starter unit and a motor protection circuit breaker mounted side by side on a small section of DIN rail, plain grey plastic housings.",
+    aspect: "4:3",
+    size: "1K",
+    model: "gemini-3.1-flash-image",
+    styleVariant: "product",
+    alt: "Arrancador suave industrial genérico y un guardamotor montados sobre un tramo de carril DIN",
+    overlay: "none",
+    replaceWithReal: true,
+  },
+  {
     id: "fam-mangueras",
     usage: "Tarjeta de familia: Mangueras",
     prompt: "A coiled reinforced industrial rubber hose with crimped metal end fittings.",

@@ -256,5 +256,11 @@
     "generatedAt": "2026-08-27T06:02:00.369Z",
     "model": "gemini-3.1-flash-lite-image",
     "rawFile": "/home/user/TRAde/public/img/raw/texture-grid.jpg"
+  },
+  "fam-arrancadores": {
+    "hash": "1147200823fe59dde4875c68b52be9d1bc7464603ac96bfe6dbf169cfc3dc347",
+    "generatedAt": "2026-08-27T06:14:47.411Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-arrancadores.jpg"
   }
 }

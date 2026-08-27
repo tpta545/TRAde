@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { getTodasLasFamilias } from "@/lib/data/familias";
+import { ImagenGenerada } from "@/components/media/imagen-generada";
 
 export function Footer() {
   const familias = getTodasLasFamilias();
 
   return (
-    <footer className="mt-16 border-t border-trade-gray-200 bg-trade-ink text-trade-gray-200">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 py-12 sm:px-6 md:grid-cols-5">
+    <footer className="relative mt-16 overflow-hidden border-t border-trade-gray-200 bg-trade-ink text-trade-gray-200">
+      <div className="pointer-events-none absolute inset-0 opacity-[0.06]">
+        <ImagenGenerada id="texture-grid" sizes="100vw" className="object-cover" alt="" />
+      </div>
+      <div className="relative mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 py-12 sm:px-6 md:grid-cols-5">
         <div>
           <h3 className="mb-3 text-xs font-semibold uppercase tracking-wide text-trade-white">
             Familias
@@ -115,7 +119,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 px-4 py-4 sm:px-6">
+      <div className="relative border-t border-white/10 px-4 py-4 sm:px-6">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 text-xs text-trade-gray-500 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {siteConfig.razonSocial} — {siteConfig.dominio}

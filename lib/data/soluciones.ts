@@ -31,6 +31,14 @@ export const SOLUCIONES: Record<string, SolucionSector> = {
       "Las líneas de envasado combinan automatización neumática (cilindros y electroválvulas para posicionadores, pinzas y compuertas) con transmisión clásica en cintas transportadoras y dosificadoras. La disponibilidad de recambio es crítica porque una línea de envasado parada no solo detiene la producción, también puede comprometer el producto que queda a medio proceso. Mantenemos stock de los diámetros de cilindro y las electroválvulas de mayor rotación en este tipo de instalaciones.",
     familiasRelevantes: ["neumatica", "rodamientos"],
   },
+  agricola: {
+    slug: "agricola",
+    nombre: "Maquinaria agrícola",
+    resumen: "Reductores, tomas de fuerza y transmisión para talleres y flotas de maquinaria agrícola.",
+    contenido:
+      "El taller de maquinaria agrícola trabaja con reductores, cardanes y rodamientos sometidos a polvo, vibración y paradas de campaña que no admiten demora. Mantener en stock las referencias de transmisión más habituales —rodamientos de eje de tractor, correas y reductores de toma de fuerza— es lo que marca la diferencia entre una reparación de una tarde y una máquina parada varios días en plena recolección.",
+    familiasRelevantes: ["rodamientos", "motores-electricos"],
+  },
 };
 
 export function getSolucion(slug: string): SolucionSector | undefined {

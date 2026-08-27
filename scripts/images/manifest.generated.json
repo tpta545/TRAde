@@ -383,6 +383,24 @@
       "768": "/img/generated/fam-proteccion-epi-768.webp"
     }
   },
+  "fam-arrancadores": {
+    "id": "fam-arrancadores",
+    "alt": "Arrancador suave industrial genérico y un guardamotor montados sobre un tramo de carril DIN",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIF/8QAIBAAAgICAQUBAAAAAAAAAAAAAQIDEQAEMQUSEyIy4f/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDb6lvPqeNY4yS5+iPUfuLo7TbSOWVQVNWvGLNBFOvbNGri7phlxokaBY1CqOABQxD/2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-arrancadores-480.avif",
+      "768": "/img/generated/fam-arrancadores-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-arrancadores-480.webp",
+      "768": "/img/generated/fam-arrancadores-768.webp"
+    }
+  },
   "fam-mangueras": {
     "id": "fam-mangueras",
     "alt": "Manguera industrial de goma reforzada enrollada con racores metálicos engarzados",
