@@ -7,6 +7,11 @@
  */
 
 :root {
+  /* Altura del banner de cookies mientras está visible (la publica
+     ConsentBanner por JS); 0px el resto del tiempo. La usa MobileBuyBar
+     para apilarse encima en vez de quedar tapada por el banner. */
+  --consent-banner-h: 0px;
+
   /* Paleta TRADE */
   --color-trade-ink: #111214;
   --color-trade-graphite: #1e2024;

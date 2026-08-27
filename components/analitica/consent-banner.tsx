@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
   CONSENTIMIENTO_ACEPTADO,
@@ -18,9 +18,34 @@ import {
  */
 export function ConsentBanner() {
   const [visible, setVisible] = useState(false);
+  const bannerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setVisible(leerConsentimientoGuardado() === null);
+  }, []);
+
+  // Publica la altura real del banner como variable CSS: en la ficha de
+  // producto, la barra fija de compra en móvil (MobileBuyBar) se apila
+  // encima en vez de quedar tapada detrás (mismo z-index "fixed bottom-0").
+  useEffect(() => {
+    if (!visible || !bannerRef.current) {
+      document.documentElement.style.setProperty("--consent-banner-h", "0px");
+      return;
+    }
+    const el = bannerRef.current;
+    const actualizarAltura = () => {
+      document.documentElement.style.setProperty("--consent-banner-h", `${el.offsetHeight}px`);
+    };
+    actualizarAltura();
+    const observer = new ResizeObserver(actualizarAltura);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [visible]);
+
+  useEffect(() => {
+    return () => {
+      document.documentElement.style.setProperty("--consent-banner-h", "0px");
+    };
   }, []);
 
   if (!visible) return null;
@@ -32,6 +57,7 @@ export function ConsentBanner() {
 
   return (
     <div
+      ref={bannerRef}
       role="dialog"
       aria-label="Preferencias de cookies"
       className="fixed inset-x-0 bottom-0 z-50 border-t border-trade-gray-200 bg-trade-white px-4 py-4 shadow-[0_-4px_16px_rgba(0,0,0,0.08)] sm:px-6"

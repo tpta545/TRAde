@@ -36,7 +36,10 @@ export function MobileBuyBar({
   };
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-trade-gray-200 bg-trade-white px-4 py-3 shadow-[0_-4px_12px_rgba(0,0,0,0.08)] lg:hidden">
+    <div
+      className="fixed inset-x-0 z-40 border-t border-trade-gray-200 bg-trade-white px-4 py-3 shadow-[0_-4px_12px_rgba(0,0,0,0.08)] transition-[bottom] lg:hidden"
+      style={{ bottom: "var(--consent-banner-h, 0px)" }}
+    >
       <div className="mx-auto flex max-w-6xl items-center gap-3">
         <div className="flex-1">
           <PriceBlock
