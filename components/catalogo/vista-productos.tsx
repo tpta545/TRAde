@@ -57,30 +57,24 @@ export function VistaProductos({ items }: { items: Producto[] }) {
         </div>
       ) : (
         <div className="overflow-x-auto rounded-lg border border-trade-gray-200">
-          <table className="w-full text-sm">
-            <thead className="border-b border-trade-gray-200 bg-trade-gray-050 text-left text-xs uppercase tracking-wide text-trade-gray-500">
+          <table className="table-trade">
+            <thead>
               <tr>
-                <th className="px-3 py-2 font-medium" scope="col">
-                  Referencia
-                </th>
-                <th className="px-3 py-2 font-medium" scope="col">
-                  Marca
-                </th>
-                <th className="px-3 py-2 font-medium" scope="col">
-                  Stock
-                </th>
-                <th className="px-3 py-2 text-right font-medium" scope="col">
+                <th scope="col">Referencia</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Stock</th>
+                <th className="text-right" scope="col">
                   Precio
                 </th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-trade-gray-200">
+            <tbody>
               {items.map((producto) => {
                 const href = `/productos/${producto.familia}/${producto.subfamilia}/${producto.slug}`;
                 const imagen = producto.imagenes[0];
                 return (
-                  <tr key={producto.id} className="hover:bg-trade-gray-050">
-                    <td className="px-3 py-2">
+                  <tr key={producto.id}>
+                    <td>
                       <Link href={href} className="flex items-center gap-3">
                         <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded border border-trade-gray-200 bg-trade-gray-050">
                           <Image
@@ -99,11 +93,11 @@ export function VistaProductos({ items }: { items: Producto[] }) {
                         </span>
                       </Link>
                     </td>
-                    <td className="px-3 py-2 text-trade-gray-500">{producto.marca}</td>
-                    <td className="px-3 py-2">
+                    <td className="text-trade-gray-500">{producto.marca}</td>
+                    <td>
                       <StockBadge producto={producto} compacto />
                     </td>
-                    <td className="px-3 py-2 text-right">
+                    <td className="text-right">
                       <PriceBlock
                         precioTarifa={producto.precioTarifa}
                         unidadVenta={producto.unidadVenta}

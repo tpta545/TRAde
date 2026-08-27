@@ -8,7 +8,7 @@ export function SubmitButton({ children }: { children: React.ReactNode }) {
     <button
       type="submit"
       disabled={pending}
-      className="w-full rounded-md bg-trade-red px-4 py-3 text-sm font-medium text-trade-white hover:bg-trade-red-dark disabled:opacity-60"
+      className="btn-primary w-full"
     >
       {pending ? "Enviando…" : children}
     </button>

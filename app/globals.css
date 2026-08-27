@@ -79,6 +79,25 @@
   --radius-lg: calc(var(--radius) * 1.4);
   --radius-xl: calc(var(--radius) * 2);
 
+  /* Sombras: mínimas y frías, para separar tarjetas/menús del fondo sin
+     efecto "glossy" (Parte V.4). */
+  --shadow-sm: 0 1px 2px 0 rgb(17 18 20 / 0.05);
+  --shadow-md: 0 4px 12px -2px rgb(17 18 20 / 0.08), 0 2px 4px -2px rgb(17 18 20 / 0.04);
+  --shadow-lg: 0 12px 24px -4px rgb(17 18 20 / 0.12), 0 4px 8px -4px rgb(17 18 20 / 0.04);
+
+  /* Estados semánticos, mapeados a la paleta TRADE (Parte V.4: "estados de
+     stock"). Los mismos colores que ya usa StockBadge — aquí quedan
+     nombrados para reutilizarlos fuera del stock (validación de forms, etc). */
+  --color-success: var(--color-trade-green);
+  --color-warning: var(--color-trade-amber);
+  --color-danger: var(--color-trade-red);
+
+  /* Motion: dos duraciones, una curva. Nada de fauna de easings distintos
+     por componente (Parte V.4). */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+
   /* Tipografía: Barlow Condensed (títulos), Inter (interfaz), JetBrains Mono (referencias) */
   --font-sans: var(--font-sans);
   --font-heading: var(--font-heading);
@@ -118,5 +137,80 @@
   h3,
   h4 {
     @apply font-heading font-semibold tracking-tight;
+  }
+
+  /* Foco: mismo tratamiento en toda la web, visible solo con teclado
+     (Parte V.4). El reset de shadcn de arriba solo define el color; aquí
+     se define el trazo real. */
+  :focus-visible {
+    outline: 2px solid var(--color-trade-red);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Botones: 3 variantes cubren toda la web (Parte V.4). El resto de
+     estados (disabled, hover) ya los resuelve Tailwind por composición.
+     Cada variante repite la base en vez de encadenar @apply de una clase
+     de componente a otra: Tailwind v4 no resuelve esas cadenas. */
+  .btn-primary,
+  .btn-secondary,
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-60;
+    transition-duration: var(--duration-fast);
+  }
+  .btn-primary {
+    @apply bg-trade-red text-trade-white hover:bg-trade-red-dark;
+  }
+  .btn-secondary {
+    @apply bg-trade-ink text-trade-white hover:bg-trade-graphite;
+  }
+  .btn-ghost {
+    @apply border border-trade-gray-200 bg-transparent text-trade-gray-900 hover:border-trade-gray-900;
+  }
+
+  /* Tabla densa: cabecera gris, filas con hover, usada por ejemplo en la
+     vista de tabla del listado de productos (VistaProductos). */
+  .table-trade {
+    @apply w-full text-sm;
+  }
+  .table-trade thead {
+    @apply border-b border-trade-gray-200 bg-trade-gray-050 text-left text-xs uppercase tracking-wide text-trade-gray-500;
+  }
+  .table-trade tbody {
+    @apply divide-y divide-trade-gray-200;
+  }
+  .table-trade tbody tr {
+    @apply hover:bg-trade-gray-050;
+  }
+  .table-trade th,
+  .table-trade td {
+    @apply px-3 py-2;
+  }
+
+  /* Estados de stock: mismo par icono+texto que StockBadge, como clases
+     reutilizables para el resto de la web (Parte V.4). */
+  .badge-stock-in {
+    @apply inline-flex items-center gap-2 text-sm font-medium;
+    color: var(--color-success);
+  }
+  .badge-stock-order {
+    @apply inline-flex items-center gap-2 text-sm font-medium;
+    color: var(--color-warning);
+  }
+  .badge-dot {
+    @apply h-2 w-2 rounded-full;
+    background-color: currentColor;
   }
 }
