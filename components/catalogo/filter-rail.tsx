@@ -44,7 +44,7 @@ export function FilterRail({
         {filtros.soloStock ? <input type="hidden" name="stock" value="1" /> : null}
 
         <div>
-          <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">Marca</h3>
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">Marca</h2>
           <ul className="space-y-1.5 text-sm">
             {marcasDisponibles.map(({ marca, total }) => (
               <li key={marca}>
@@ -65,9 +65,9 @@ export function FilterRail({
 
         {subfamiliasDisponibles && subfamiliasDisponibles.length > 0 && (
           <div>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
+            <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
               Subfamilia
-            </h3>
+            </h2>
             <ul className="space-y-1.5 text-sm">
               {subfamiliasDisponibles.map(({ info, total }) => (
                 <li key={info.slug}>
@@ -104,9 +104,9 @@ export function FilterRail({
         </div>
 
         <div>
-          <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
             Precio (€, sin IVA)
-          </h3>
+          </h2>
           <div className="flex items-center gap-2">
             <input
               type="number"
@@ -128,9 +128,9 @@ export function FilterRail({
 
         {Object.entries(rangosAtributos).map(([clave, [min, max]]) => (
           <div key={clave}>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
+            <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-trade-gray-500">
               {clave}
-            </h3>
+            </h2>
             <div className="flex items-center gap-2">
               <input
                 type="number"
