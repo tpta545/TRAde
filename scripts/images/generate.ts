@@ -108,6 +108,11 @@ async function generarImagen(
       ]
     : prompt;
 
+  // gemini-3-pro-image rechaza thinking_level "minimal" (400: solo admite
+  // "high"/"low"); comprobado contra la API real, no documentado así en la
+  // Fase V. El resto de modelos sí aceptan "minimal".
+  const thinkingLevel = asset.model === "gemini-3-pro-image" ? "low" : "minimal";
+
   const interaction = await ai.interactions.create({
     model: asset.model,
     input,
@@ -117,7 +122,7 @@ async function generarImagen(
       aspect_ratio: asset.aspect,
       image_size: asset.size,
     },
-    generation_config: { thinking_level: "minimal" },
+    generation_config: { thinking_level: thinkingLevel },
   });
 
   const salida = interaction.output_image;
@@ -125,6 +130,15 @@ async function generarImagen(
     throw new Error(`Respuesta sin output_image.data para ${asset.id} (interaction sin imagen).`);
   }
   return { buffer: Buffer.from(salida.data, "base64"), mime: salida.mime_type ?? "image/jpeg" };
+}
+
+class ErrorGeneracion extends Error {
+  constructor(
+    message: string,
+    public intentos: number,
+  ) {
+    super(message);
+  }
 }
 
 async function generarConReintentos(asset: ImageAsset, referencePaths: string[]) {
@@ -136,7 +150,10 @@ async function generarConReintentos(asset: ImageAsset, referencePaths: string[])
       ultimoError = error;
       const status = (error as { status?: number })?.status;
       const esReintentable = status === 429 || (typeof status === "number" && status >= 500);
-      if (!esReintentable || intento === REINTENTOS_MAXIMOS - 1) throw error;
+      if (!esReintentable || intento === REINTENTOS_MAXIMOS - 1) {
+        const mensaje = error instanceof Error ? error.message : String(error);
+        throw new ErrorGeneracion(mensaje, intento + 1);
+      }
       const espera = 1000 * 2 ** intento;
       console.warn(`[images] ${asset.id}: fallo (${status ?? "?"}), reintento en ${espera}ms…`);
       await esperar(espera);
@@ -174,7 +191,10 @@ async function procesarEntrada(
     return { id: asset.id, estado: "generada" };
   } catch (error) {
     const mensaje = error instanceof Error ? error.message : String(error);
-    console.error(`[images] ${asset.id}: FALLÓ tras ${REINTENTOS_MAXIMOS} intentos — ${mensaje}`);
+    const intentos = error instanceof ErrorGeneracion ? error.intentos : 1;
+    console.error(
+      `[images] ${asset.id}: FALLÓ tras ${intentos} intento${intentos === 1 ? "" : "s"} — ${mensaje}`,
+    );
     return { id: asset.id, estado: "error", detalle: mensaje };
   }
 }

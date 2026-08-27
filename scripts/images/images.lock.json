@@ -1,1 +1,26 @@
-{}
+{
+  "fam-rodamientos": {
+    "hash": "c3c8d2756c8cd933cce5a97fdf5310f77fa74a7489d58a52049390de00dd7ddc",
+    "generatedAt": "2026-08-27T05:47:12.732Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-rodamientos.jpg"
+  },
+  "hero-home": {
+    "hash": "2193fbe6aa30c0541ce58153a9af42460be548d6ecfe75c5f27781edd487693b",
+    "generatedAt": "2026-08-27T05:48:54.677Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-home.jpg"
+  },
+  "hero-asesoramiento": {
+    "hash": "97b7b092d46afa6a8b2b4f273e8080edb63e661b0504da43bd1e919dae40c1f8",
+    "generatedAt": "2026-08-27T05:49:39.003Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-asesoramiento.jpg"
+  },
+  "hero-reparacion": {
+    "hash": "8a24aa35894228f4485cdba098a0083c901d9a17b5d8c5f9677693fb2ce99b6c",
+    "generatedAt": "2026-08-27T05:49:39.452Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-reparacion.jpg"
+  }
+}
