@@ -20,6 +20,7 @@ import { DocumentList } from "@/components/producto/document-list";
 import { EquivalenceTable } from "@/components/producto/equivalence-table";
 import { ProductCard } from "@/components/producto/product-card";
 import { CopyReferenceButton } from "@/components/producto/copy-reference-button";
+import { MobileBuyBar } from "@/components/producto/mobile-buy-bar";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo/schema";
 import { obtenerSesion } from "@/lib/auth/session";
 import { TrackOnMount } from "@/components/analitica/track-on-mount";
@@ -107,7 +108,7 @@ export default async function FichaProductoPage({
   const imagen = producto.imagenes[0];
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
+    <div className="mx-auto w-full max-w-6xl px-4 py-8 pb-28 sm:px-6 lg:pb-8">
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
@@ -141,7 +142,7 @@ export default async function FichaProductoPage({
 
       <Breadcrumbs items={migas.slice(1)} />
 
-      <div className="mt-6 grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <div className="mt-6 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
         {/* Galería */}
         <div>
           <div className="aspect-square overflow-hidden rounded-lg border border-trade-gray-200 bg-trade-gray-050">
@@ -150,14 +151,14 @@ export default async function FichaProductoPage({
               alt={imagen?.alt ?? producto.nombre}
               width={800}
               height={800}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
               priority
             />
           </div>
         </div>
 
         {/* Compra */}
-        <div className="space-y-5">
+        <div className="space-y-5 lg:sticky lg:top-24">
           <div>
             <div className="flex items-center gap-2">
               <Link
@@ -294,6 +295,11 @@ export default async function FichaProductoPage({
           </section>
         )}
       </div>
+
+      <MobileBuyBar
+        producto={producto}
+        sesion={sesion ? { descuentoPorcentaje: sesion.descuentoPorcentaje } : null}
+      />
     </div>
   );
 }
