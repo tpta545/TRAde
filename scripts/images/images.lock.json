@@ -1,7 +1,7 @@
 {
   "fam-rodamientos": {
-    "hash": "c3c8d2756c8cd933cce5a97fdf5310f77fa74a7489d58a52049390de00dd7ddc",
-    "generatedAt": "2026-08-27T05:47:12.732Z",
+    "hash": "a886b99912ca2b6098bc614f5be42af395e04af8fb2662de572412a9a9f4dcc1",
+    "generatedAt": "2026-08-27T05:50:20.237Z",
     "model": "gemini-3.1-flash-image",
     "rawFile": "/home/user/TRAde/public/img/raw/fam-rodamientos.jpg"
   },
@@ -22,5 +22,239 @@
     "generatedAt": "2026-08-27T05:49:39.452Z",
     "model": "gemini-3-pro-image",
     "rawFile": "/home/user/TRAde/public/img/raw/hero-reparacion.jpg"
+  },
+  "hero-empresa": {
+    "hash": "9fb9d64b731a93587eb803e79846f851d4c6a912df4b3b81cae5c549b9ad3fea",
+    "generatedAt": "2026-08-27T05:50:07.640Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-empresa.jpg"
+  },
+  "hero-blog": {
+    "hash": "3a45498d38fbc7a1db8702d7a613f8f17a97d6472c9823f81aeb15a26589f9d4",
+    "generatedAt": "2026-08-27T05:50:09.131Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-blog.jpg"
+  },
+  "hero-mantenimiento": {
+    "hash": "3aacec8b0b03436fb7e5e87c14253bd8b6315ffee310c0217ec87b35fd5bc1e1",
+    "generatedAt": "2026-08-27T05:50:09.856Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/hero-mantenimiento.jpg"
+  },
+  "fam-motores-electricos": {
+    "hash": "9b76b9dccc5a62a14544381bfbb6cf9b4d12580e5f440cd61c846c43da2ad45b",
+    "generatedAt": "2026-08-27T05:50:17.828Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-motores-electricos.jpg"
+  },
+  "fam-variadores": {
+    "hash": "2b2fcfafe09213f8d086d0b93dd62915f1cda991b741256b9a3cbeb91c8ad88b",
+    "generatedAt": "2026-08-27T05:50:27.304Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-variadores.jpg"
+  },
+  "fam-neumatica": {
+    "hash": "143e0365d93e53f4e079322df5a60ffd9675d7c830c86eb565f92e9785e79cdd",
+    "generatedAt": "2026-08-27T05:50:29.039Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-neumatica.jpg"
+  },
+  "fam-reductores": {
+    "hash": "9473f6e7339d1af578840815a61112dad00b77baff98a37b5f770b0d86b4c11e",
+    "generatedAt": "2026-08-27T05:50:36.381Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-reductores.jpg"
+  },
+  "fam-correas-cadenas": {
+    "hash": "935f997a5b4b7a6b124b9a493badf95807c58344a1096f4c0ebc593fd990940f",
+    "generatedAt": "2026-08-27T05:50:38.302Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-correas-cadenas.jpg"
+  },
+  "og-default": {
+    "hash": "378ae7abfb9c8d20d124f32bffa5940dac593546fecf777d9317cc47a1d13403",
+    "generatedAt": "2026-08-27T05:50:42.309Z",
+    "model": "gemini-3-pro-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/og-default.jpg"
+  },
+  "fam-acoplamientos": {
+    "hash": "69e0bffedc7f6cee1edaf174d86b6d06b51d8a9161a91ae8018fa51eec1d4e06",
+    "generatedAt": "2026-08-27T05:50:47.683Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-acoplamientos.jpg"
+  },
+  "fam-poleas-transmision": {
+    "hash": "b8752571de55fd6e572cb30135e0d0ca6b332022007b10e93a354ebbc19b0785",
+    "generatedAt": "2026-08-27T05:50:48.342Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-poleas-transmision.jpg"
+  },
+  "fam-rodamientos-soportes": {
+    "hash": "afb4ae7c510c078416476a16975091940f520120cbce5a975bf4eec300f95dd5",
+    "generatedAt": "2026-08-27T05:50:52.992Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-rodamientos-soportes.jpg"
+  },
+  "fam-lubricantes": {
+    "hash": "185fd1a655f4711966d02b0a757f890f25bc94e289fe6367de98d0855c6d76b1",
+    "generatedAt": "2026-08-27T05:50:57.407Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-lubricantes.jpg"
+  },
+  "fam-herramienta": {
+    "hash": "1ac68e04ff197e27c87cc2b1beb380af01a3c6034e322f2acfd8d53a2c103acf",
+    "generatedAt": "2026-08-27T05:50:57.899Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-herramienta.jpg"
+  },
+  "fam-proteccion-epi": {
+    "hash": "1dccf911c54d959774b3078350f8ff00690f237edba0908ed7579afcc6308c81",
+    "generatedAt": "2026-08-27T05:51:02.830Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-proteccion-epi.jpg"
+  },
+  "fam-mangueras": {
+    "hash": "cc300c876a3d7ff53dc105992b94795fbe3d6cb81ce178e226c50c6dee52d577",
+    "generatedAt": "2026-08-27T05:51:08.116Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/fam-mangueras.jpg"
+  },
+  "sector-citricos": {
+    "hash": "5369be4f86cee4d833ff96efa8f83aee1bc40a6f407df754ec58c56a514cc13c",
+    "generatedAt": "2026-08-27T05:51:13.451Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-citricos.jpg"
+  },
+  "sector-hortofruticola": {
+    "hash": "add78ef9f6d5248010f343787eba0d33610897b4d9176f1c6ec2fec6299712af",
+    "generatedAt": "2026-08-27T05:51:19.766Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-hortofruticola.jpg"
+  },
+  "sector-ceramica": {
+    "hash": "aa5b0403af38b7f35d40a7673f60aae5ba7270603f94844640640b0e696600fb",
+    "generatedAt": "2026-08-27T05:51:24.932Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-ceramica.jpg"
+  },
+  "sector-alimentacion": {
+    "hash": "b74cda968d16550857bdcd5603e68bda9cc50d39bf955235f0765f1c592d0571",
+    "generatedAt": "2026-08-27T05:51:27.161Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-alimentacion.jpg"
+  },
+  "sector-aguas": {
+    "hash": "8307e1f56f9fbc17e59d64fd71d9a931e27cab76a1c8a59dd3c141b225ff32fd",
+    "generatedAt": "2026-08-27T05:51:35.402Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-aguas.jpg"
+  },
+  "sector-madera": {
+    "hash": "e5a81bfe11a5caa5870b0994ffc3ae760bf2b9750e0fffa1513153e463360a1b",
+    "generatedAt": "2026-08-27T05:51:41.438Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-madera.jpg"
+  },
+  "sector-plastico": {
+    "hash": "04100f4b60110f3cea2032683af82d675f6d0965b31091ab31e400049db4273b",
+    "generatedAt": "2026-08-27T05:51:43.500Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-plastico.jpg"
+  },
+  "sector-packaging": {
+    "hash": "006b985f3eedb7e6e2643b900ac6fdd7d23a2509b45a36d97193f018c7aa6a68",
+    "generatedAt": "2026-08-27T05:51:53.593Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-packaging.jpg"
+  },
+  "editorial-reparto": {
+    "hash": "69aeae2e0182100db8580423e57acb81e3f34c5fec25a7f49dc4b7cbbae0bd85",
+    "generatedAt": "2026-08-27T05:51:57.172Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/editorial-reparto.jpg"
+  },
+  "sector-agricola": {
+    "hash": "8e584bc4e9e654664f3816f9c2e1b496f0e87623a53f805d06161881365acf63",
+    "generatedAt": "2026-08-27T05:52:01.595Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/sector-agricola.jpg"
+  },
+  "editorial-almacen-picking": {
+    "hash": "1dead3e8ffc92a4f0bd458136692361cf4f2253ea81c4b3c7a7a87a74e6a2b4a",
+    "generatedAt": "2026-08-27T05:52:09.514Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/editorial-almacen-picking.jpg"
+  },
+  "editorial-mostrador": {
+    "hash": "115b22021f446337dc91a42988b61aa4cca03bc716dd05721c8a354f7d8c1912",
+    "generatedAt": "2026-08-27T05:52:13.470Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/editorial-mostrador.jpg"
+  },
+  "editorial-planta": {
+    "hash": "2d045c07ded23a8decfbfaafa315f8d9df30248439465662da438a1db3b3a156",
+    "generatedAt": "2026-08-27T05:52:16.248Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/editorial-planta.jpg"
+  },
+  "blog-placa-caracteristicas": {
+    "hash": "093c059fb423b18079451bfe30b3dab3a2aabca8b7a6f09c79f08a51cfa5302c",
+    "generatedAt": "2026-08-27T05:52:18.904Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-placa-caracteristicas.jpg"
+  },
+  "blog-sufijos-rodamientos": {
+    "hash": "6d15cc3b99ec063b5e9e446db1dbb245cad6c9831f7cbbb59a10af71d73f9c7d",
+    "generatedAt": "2026-08-27T05:52:22.702Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-sufijos-rodamientos.jpg"
+  },
+  "blog-errores-variador": {
+    "hash": "f0f7ab8928e051e2dc71d306ec22dafcdce21fcd3efaefdd1d4adf3158517b29",
+    "generatedAt": "2026-08-27T05:52:27.649Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-errores-variador.jpg"
+  },
+  "blog-equivalencias": {
+    "hash": "a777ac2a78bc4eff585bf194a69173a618f8b267e13262a0232d1755ff5ea938",
+    "generatedAt": "2026-08-27T05:52:29.061Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-equivalencias.jpg"
+  },
+  "state-404": {
+    "hash": "0ab93d6a25cceeb9ea9b79038ffdc9f2f3973541adab18f5bc791d9e03640fcb",
+    "generatedAt": "2026-08-27T05:52:32.249Z",
+    "model": "gemini-3.1-flash-lite-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/state-404.jpg"
+  },
+  "blog-reparar-o-sustituir": {
+    "hash": "ea2e5619746cceea79116303cdadcdceb41a3de234c3ace3bb1f47f79e5e1d5c",
+    "generatedAt": "2026-08-27T05:52:32.320Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-reparar-o-sustituir.jpg"
+  },
+  "state-empty-cart": {
+    "hash": "55a72cf2b738315e252a751dd07c7b70fd811f7a03eb254fecc04ce4bb69a421",
+    "generatedAt": "2026-08-27T05:52:35.333Z",
+    "model": "gemini-3.1-flash-lite-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/state-empty-cart.jpg"
+  },
+  "state-no-results": {
+    "hash": "dc1e275e24c47230939ad4038dd9f5f2889c59bb36da7d183a3fbb8a977b9c6b",
+    "generatedAt": "2026-08-27T05:52:35.706Z",
+    "model": "gemini-3.1-flash-lite-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/state-no-results.jpg"
+  },
+  "blog-seleccion-motor": {
+    "hash": "53f4c3a97b0cbeb435089ac4804c68a19d6cfcf93e8a8e4f7d4191c1bbe6f43e",
+    "generatedAt": "2026-08-27T05:52:37.054Z",
+    "model": "gemini-3.1-flash-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/blog-seleccion-motor.jpg"
+  },
+  "texture-grid": {
+    "hash": "5d092e8ff654e15522f30704a446d4b22a93b420d0fe4ee2bc2d7e756abf95eb",
+    "generatedAt": "2026-08-27T05:52:38.483Z",
+    "model": "gemini-3.1-flash-lite-image",
+    "rawFile": "/home/user/TRAde/public/img/raw/texture-grid.jpg"
   }
 }
