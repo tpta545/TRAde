@@ -3,7 +3,7 @@ import { join, dirname } from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { IMAGE_MANIFEST, type ImageAsset } from "./manifest";
-import { componerPromptEditorial, componerPromptProducto } from "./style";
+import { componerPromptEditorial, componerPromptProducto, componerPromptTextura } from "./style";
 
 /**
  * Genera las imágenes que falten (o hayan cambiado) según manifest.ts.
@@ -52,9 +52,9 @@ function escribirLock(lock: Lock) {
 
 /** Prompt final compuesto, igual que verá el modelo. Es lo que se hashea. */
 function promptFinal(asset: ImageAsset): string {
-  return asset.styleVariant === "product"
-    ? componerPromptProducto(asset.prompt)
-    : componerPromptEditorial(asset.prompt);
+  if (asset.styleVariant === "product") return componerPromptProducto(asset.prompt);
+  if (asset.styleVariant === "texture") return componerPromptTextura(asset.prompt);
+  return componerPromptEditorial(asset.prompt);
 }
 
 function hashDeEntrada(asset: ImageAsset, referencePaths: string[]): string {

@@ -44,3 +44,12 @@ export function componerPromptProducto(descripcionEspecifica: string): string {
 export function componerPromptEditorial(descripcionEspecifica: string): string {
   return [STYLE_BASE, descripcionEspecifica, STYLE_NEGATIVE].join("\n\n");
 }
+
+/**
+ * Compone el prompt para texturas abstractas de fondo (texture-grid): sin
+ * STYLE_BASE ni STYLE_PRODUCT_ILLU, porque ambos empujan al modelo a
+ * fotografiar un objeto discreto en vez de generar una textura tileable.
+ */
+export function componerPromptTextura(descripcionEspecifica: string): string {
+  return [descripcionEspecifica, STYLE_NEGATIVE].join("\n\n");
+}

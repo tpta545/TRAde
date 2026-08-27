@@ -1,1 +1,914 @@
-{}
+{
+  "hero-home": {
+    "id": "hero-home",
+    "alt": "Interior de un gran almacén industrial de recambios al amanecer, con estanterías metálicas altas y una carretilla elevadora al fondo",
+    "aspect": "21:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAHABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQG/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIAAwQREiGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMzZYNddiAMdzLLitVcqqauo4AvAPYiB/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-home-480.avif",
+      "768": "/img/generated/hero-home-768.avif",
+      "1280": "/img/generated/hero-home-1280.avif",
+      "1920": "/img/generated/hero-home-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-home-480.webp",
+      "768": "/img/generated/hero-home-768.webp",
+      "1280": "/img/generated/hero-home-1280.webp",
+      "1920": "/img/generated/hero-home-1920.webp"
+    }
+  },
+  "hero-reparacion": {
+    "id": "hero-reparacion",
+    "alt": "Banco de reparación electrónica con un armario de variador industrial abierto, una placa de circuito bajo un flexo y herramientas ordenadas",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAP/xAAjEAACAQMCBwEAAAAAAAAAAAABAgMABBEFEjI1UWFxgbLw/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ABTzSajbm4jWON1bdu34K9/3WhhJ9SUsHQ4GMs+CaOeXyeB9VC34fdB//9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-reparacion-480.avif",
+      "768": "/img/generated/hero-reparacion-768.avif",
+      "1280": "/img/generated/hero-reparacion-1280.avif",
+      "1920": "/img/generated/hero-reparacion-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-reparacion-480.webp",
+      "768": "/img/generated/hero-reparacion-768.webp",
+      "1280": "/img/generated/hero-reparacion-1280.webp",
+      "1920": "/img/generated/hero-reparacion-1920.webp"
+    }
+  },
+  "hero-asesoramiento": {
+    "id": "hero-asesoramiento",
+    "alt": "Plano cenital de un plano técnico, un calibre y un rodamiento genérico sobre una mesa de trabajo desgastada, junto a un cuaderno con bocetos",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAHxAAAgICAgMBAAAAAAAAAAAAAQIDEQAEMXESEzRh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AEhl1BA0UqKhIpTfP5WRQx6zTRJKjest4uS1VmRsfQ3YxG5boYH/2Q==",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-asesoramiento-480.avif",
+      "768": "/img/generated/hero-asesoramiento-768.avif",
+      "1280": "/img/generated/hero-asesoramiento-1280.avif",
+      "1920": "/img/generated/hero-asesoramiento-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-asesoramiento-480.webp",
+      "768": "/img/generated/hero-asesoramiento-768.webp",
+      "1280": "/img/generated/hero-asesoramiento-1280.webp",
+      "1920": "/img/generated/hero-asesoramiento-1920.webp"
+    }
+  },
+  "hero-mantenimiento": {
+    "id": "hero-mantenimiento",
+    "alt": "Sistema de almacenaje industrial organizado con filas de cajones y cubetas etiquetadas de componentes pequeños",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAkEAACAQIDCQAAAAAAAAAAAAABAgMAEQQhMwUiMUFRYYKhsf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAQf/aAAwDAQACEQMRAD8AnMOWV91lDcs8/VNNLicPHGUjDSICVY2Fr8bDr3oPZ2qKZGp4N8oR/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-mantenimiento-480.avif",
+      "768": "/img/generated/hero-mantenimiento-768.avif",
+      "1280": "/img/generated/hero-mantenimiento-1280.avif",
+      "1920": "/img/generated/hero-mantenimiento-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-mantenimiento-480.webp",
+      "768": "/img/generated/hero-mantenimiento-768.webp",
+      "1280": "/img/generated/hero-mantenimiento-1280.webp",
+      "1920": "/img/generated/hero-mantenimiento-1920.webp"
+    }
+  },
+  "hero-empresa": {
+    "id": "hero-empresa",
+    "alt": "Fachada de una nave industrial de suministro en un polígono mediterráneo al atardecer, con el portón de carga entreabierto",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgL/xAAfEAACAgIBBQAAAAAAAAAAAAABAgADEUEFBBMyM3H/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oADAMBAAIRAxEAPwA9Taar6iDhSACBsRBxPJdEvdrLNShQ5L7bOocf20/JY8YTYOX/2Q==",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-empresa-480.avif",
+      "768": "/img/generated/hero-empresa-768.avif",
+      "1280": "/img/generated/hero-empresa-1280.avif",
+      "1920": "/img/generated/hero-empresa-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-empresa-480.webp",
+      "768": "/img/generated/hero-empresa-768.webp",
+      "1280": "/img/generated/hero-empresa-1280.webp",
+      "1920": "/img/generated/hero-empresa-1920.webp"
+    }
+  },
+  "hero-blog": {
+    "id": "hero-blog",
+    "alt": "Primer plano macro de engranajes metálicos mecanizados entrelazados y una cadena, con brillo de aceite",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAJBAAAgECAwkAAAAAAAAAAAAAAQIRAAMTIXIEBTEzNFFxscH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwkGDYDvlJkAnOO/irWduwbDsLJKMYMNwo++OcukeqKOmOr5SH//Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/hero-blog-480.avif",
+      "768": "/img/generated/hero-blog-768.avif",
+      "1280": "/img/generated/hero-blog-1280.avif",
+      "1920": "/img/generated/hero-blog-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/hero-blog-480.webp",
+      "768": "/img/generated/hero-blog-768.webp",
+      "1280": "/img/generated/hero-blog-1280.webp",
+      "1920": "/img/generated/hero-blog-1920.webp"
+    }
+  },
+  "og-default": {
+    "id": "og-default",
+    "alt": "Rodamiento industrial genérico iluminado lateralmente sobre fondo grafito oscuro, con amplio espacio negativo",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgb/xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIDMREh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJuqSzgbZRb8TDEFmiH/2Q==",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/og-default-480.avif",
+      "768": "/img/generated/og-default-768.avif",
+      "1280": "/img/generated/og-default-1280.avif",
+      "1920": "/img/generated/og-default-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/og-default-480.webp",
+      "768": "/img/generated/og-default-768.webp",
+      "1280": "/img/generated/og-default-1280.webp",
+      "1920": "/img/generated/og-default-1920.webp"
+    }
+  },
+  "fam-rodamientos": {
+    "id": "fam-rodamientos",
+    "alt": "Rodamiento rígido de bolas genérico en vista de tres cuartos, acero pulido con junta de caucho negra",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBf/EAB0QAAMAAgMBAQAAAAAAAAAAAAECAwQRABJRE0H/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANzPtSRhOLBGtQJ3YbC8bAvSj5EasKGLABwNbB5e+NLJn87L2XzfDj48safSKBV3s/pJ9J4R/9k=",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-rodamientos-480.avif",
+      "768": "/img/generated/fam-rodamientos-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-rodamientos-480.webp",
+      "768": "/img/generated/fam-rodamientos-768.webp"
+    }
+  },
+  "fam-motores-electricos": {
+    "id": "fam-motores-electricos",
+    "alt": "Motor eléctrico trifásico industrial genérico en gris, con aletas de refrigeración y caja de bornes",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwX/xAAfEAACAgIDAAMAAAAAAAAAAAABAgMEABEFEjFBUWL/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AuclbNKGMpru7hRvwfe8TjrYuxM3XRU6OvDizU69gamhSQfoYyIsahUUKo+BiH//Z",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-motores-electricos-480.avif",
+      "768": "/img/generated/fam-motores-electricos-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-motores-electricos-480.webp",
+      "768": "/img/generated/fam-motores-electricos-768.webp"
+    }
+  },
+  "fam-variadores": {
+    "id": "fam-variadores",
+    "alt": "Variador de frecuencia mural genérico, carcasa de plástico gris oscuro con teclado en blanco",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgQF/8QAHRAAAQQDAQEAAAAAAAAAAAAAAQIDBBEABRIhIv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDe2slyHFDjQSVFQH0Lw6iU7NjKce5sLocisskMNyG+HkBabujhjxWYyChhHCSbIBPpxD//2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-variadores-480.avif",
+      "768": "/img/generated/fam-variadores-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-variadores-480.webp",
+      "768": "/img/generated/fam-variadores-768.webp"
+    }
+  },
+  "fam-neumatica": {
+    "id": "fam-neumatica",
+    "alt": "Cilindro neumático genérico y dos electroválvulas de aluminio con racores push-in",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBv/EABwQAAICAwEBAAAAAAAAAAAAAAECAxEABGEx0f/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDQTbMcDiMq7OylgFUnzuL1dsbTkCFkFE2x7Q+5VZws4h//2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-neumatica-480.avif",
+      "768": "/img/generated/fam-neumatica-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-neumatica-480.webp",
+      "768": "/img/generated/fam-neumatica-768.webp"
+    }
+  },
+  "fam-reductores": {
+    "id": "fam-reductores",
+    "alt": "Reductor de tornillo sinfín genérico en fundición, con eje de salida a la vista",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMEBv/EACIQAAIBAwMFAQAAAAAAAAAAAAIDAQAEERITIQUUMUFRgf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDR3tx2dvuQGvnGKT0y4deA02gMLzG2Ue+OY/KpcldwvQ4IMfOJopStAaFDAj8ikP/Z",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-reductores-480.avif",
+      "768": "/img/generated/fam-reductores-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-reductores-480.webp",
+      "768": "/img/generated/fam-reductores-768.webp"
+    }
+  },
+  "fam-correas-cadenas": {
+    "id": "fam-correas-cadenas",
+    "alt": "Correa dentada negra enrollada junto a un tramo de cadena de rodillos",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIEBf/EACAQAAICAgICAwAAAAAAAAAAAAECAxEABBIhBVEUccH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3fI751GjjUIGkBppL4366/ax9Dd+UHVijOh7aO+J+rysgEURYwJGka8Y1VF9AViH/9k=",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-correas-cadenas-480.avif",
+      "768": "/img/generated/fam-correas-cadenas-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-correas-cadenas-480.webp",
+      "768": "/img/generated/fam-correas-cadenas-768.webp"
+    }
+  },
+  "fam-poleas-transmision": {
+    "id": "fam-poleas-transmision",
+    "alt": "Dos poleas de fundición de distinto diámetro apiladas junto a un casquillo cónico",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQIDBBEABRIhMf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDa284wY3JoW4e/PBjUTjOjcnRTg789GRtYTUpIU5yCgKtKq6xqoTMVJU3yKiKtSr6xD//Z",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-poleas-transmision-480.avif",
+      "768": "/img/generated/fam-poleas-transmision-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-poleas-transmision-480.webp",
+      "768": "/img/generated/fam-poleas-transmision-768.webp"
+    }
+  },
+  "fam-acoplamientos": {
+    "id": "fam-acoplamientos",
+    "alt": "Acoplamiento de quijada genérico separado en sus dos mitades con la araña elastomérica entre ellas",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBv/EAB4QAAICAgIDAAAAAAAAAAAAAAECAxEABAUhMVGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANBPvRwTNEY2ZghYUOj1dfMXq8gNrYSIQlVeMSBifYysxoZA5RS4FBq7wqA8AYh//9k=",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-acoplamientos-480.avif",
+      "768": "/img/generated/fam-acoplamientos-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-acoplamientos-480.webp",
+      "768": "/img/generated/fam-acoplamientos-768.webp"
+    }
+  },
+  "fam-rodamientos-soportes": {
+    "id": "fam-rodamientos-soportes",
+    "alt": "Soporte de pie con rodamiento montado en fundición, con dos orificios de anclaje",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwEG/8QAIBAAAgIBAwUAAAAAAAAAAAAAAQIDBAAFERMSFDFRYf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDQalb7KtyKqs5IABOTTrq3I2DdHIjEEL4I9jGmqwTsGmiV2A2BOLHGka7IqqPg2wP/2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-rodamientos-soportes-480.avif",
+      "768": "/img/generated/fam-rodamientos-soportes-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-rodamientos-soportes-480.webp",
+      "768": "/img/generated/fam-rodamientos-soportes-768.webp"
+    }
+  },
+  "fam-herramienta": {
+    "id": "fam-herramienta",
+    "alt": "Llave combinada, juego de llaves Allen y llave dinamométrica genéricas dispuestas en paralelo",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIG/8QAHhAAAgICAwEBAAAAAAAAAAAAAQIEEQASITFBcZH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A0UqWsYKWF2er5+1hRpyS99CBr5fP5iuiuQWRWI6sXkaIhJVFUn0CsQ//2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-herramienta-480.avif",
+      "768": "/img/generated/fam-herramienta-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-herramienta-480.webp",
+      "768": "/img/generated/fam-herramienta-768.webp"
+    }
+  },
+  "fam-lubricantes": {
+    "id": "fam-lubricantes",
+    "alt": "Cartucho de grasa metálico sin etiquetar junto a una aceitera pequeña",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBv/EAB0QAAIDAAIDAAAAAAAAAAAAAAECAAMRBBITYYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANHyH8CoeuhnCn1sKnS4Mazqqev2VsRbFx1DDdwxK6a6gRWoUE6chH//2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-lubricantes-480.avif",
+      "768": "/img/generated/fam-lubricantes-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-lubricantes-480.webp",
+      "768": "/img/generated/fam-lubricantes-768.webp"
+    }
+  },
+  "fam-proteccion-epi": {
+    "id": "fam-proteccion-epi",
+    "alt": "Guantes de trabajo, gafas de protección transparentes y orejeras dispuestos de forma ordenada",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBv/EAB4QAAICAgMBAQAAAAAAAAAAAAIDAREABAUSISKh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANByOzOvrlCmAL5j47Rf5h49jmaoFsyMsL35jysqeulh9zUBHVXMe1jKUCQ6KHqN3WIf/9k=",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-proteccion-epi-480.avif",
+      "768": "/img/generated/fam-proteccion-epi-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-proteccion-epi-480.webp",
+      "768": "/img/generated/fam-proteccion-epi-768.webp"
+    }
+  },
+  "fam-mangueras": {
+    "id": "fam-mangueras",
+    "alt": "Manguera industrial de goma reforzada enrollada con racores metálicos engarzados",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQQF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQMCBAARBRIUMXFBUmH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AK7/ACrE35VEGsroAMmWCQCT8DWPHctOxd7R4RMyBMWIJMTr3mm6pXs6L0wZr7DFNZFcaQqK/Q8fmEf/2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/fam-mangueras-480.avif",
+      "768": "/img/generated/fam-mangueras-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/fam-mangueras-480.webp",
+      "768": "/img/generated/fam-mangueras-768.webp"
+    }
+  },
+  "sector-citricos": {
+    "id": "sector-citricos",
+    "alt": "Interior de una central de confección de cítricos, con cintas transportadoras de rodillos de acero inoxidable llevando naranjas",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQQG/8QAIBAAAgICAQUBAAAAAAAAAAAAAQMCBAARITE1c4Gxwv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAmhemqO4WDKGtGOwD8yhty0xjmKBYAsGZJ5A5wOv195oU9queEfrA//9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-citricos-480.avif",
+      "768": "/img/generated/sector-citricos-768.avif",
+      "1280": "/img/generated/sector-citricos-1280.avif",
+      "1920": "/img/generated/sector-citricos-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-citricos-480.webp",
+      "768": "/img/generated/sector-citricos-768.webp",
+      "1280": "/img/generated/sector-citricos-1280.webp",
+      "1920": "/img/generated/sector-citricos-1920.webp"
+    }
+  },
+  "sector-hortofruticola": {
+    "id": "sector-hortofruticola",
+    "alt": "Línea de calibrado de hortalizas con cajas de plástico apiladas y una zona de pesaje",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIE/8QAJBAAAQMDAQkAAAAAAAAAAAAAAQIDEQAEIQUSMTIzUWFxgsH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8APRqqg42tsBOxJIzg9Mb6ly7Fw+lYbhcBICwSYnvWFrmJ80racft8oL//2Q==",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-hortofruticola-480.avif",
+      "768": "/img/generated/sector-hortofruticola-768.avif",
+      "1280": "/img/generated/sector-hortofruticola-1280.avif",
+      "1920": "/img/generated/sector-hortofruticola-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-hortofruticola-480.webp",
+      "768": "/img/generated/sector-hortofruticola-768.webp",
+      "1280": "/img/generated/sector-hortofruticola-1280.webp",
+      "1920": "/img/generated/sector-hortofruticola-1920.webp"
+    }
+  },
+  "sector-ceramica": {
+    "id": "sector-ceramica",
+    "alt": "Salida de un horno de rodillos en una fábrica de baldosas cerámicas, con calima de calor",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAJBAAAQMDAQkAAAAAAAAAAAAAAQACAwQRITIFEhMxNVFxc7H/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AyYqp1YOHM4Mi3gA0nA53OUpoLXfDMHlo0MvjujV9MZ5Vdlaz6B9QX//Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-ceramica-480.avif",
+      "768": "/img/generated/sector-ceramica-768.avif",
+      "1280": "/img/generated/sector-ceramica-1280.avif",
+      "1920": "/img/generated/sector-ceramica-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-ceramica-480.webp",
+      "768": "/img/generated/sector-ceramica-768.webp",
+      "1280": "/img/generated/sector-ceramica-1280.webp",
+      "1920": "/img/generated/sector-ceramica-1920.webp"
+    }
+  },
+  "sector-alimentacion": {
+    "id": "sector-alimentacion",
+    "alt": "Línea higiénica de procesado de alimentos en acero inoxidable, con cinta transportadora e iluminación uniforme",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EACUQAAECBQEJAAAAAAAAAAAAAAECAwAEBRETMSEyMzRRYXFy8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAMjXnENuBTmUagqRu9r7Lw1LVCbm1tFLLarA5FaAD7pGYTwVeYuUzlT6wH/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-alimentacion-480.avif",
+      "768": "/img/generated/sector-alimentacion-768.avif",
+      "1280": "/img/generated/sector-alimentacion-1280.avif",
+      "1920": "/img/generated/sector-alimentacion-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-alimentacion-480.webp",
+      "768": "/img/generated/sector-alimentacion-768.webp",
+      "1280": "/img/generated/sector-alimentacion-1280.webp",
+      "1920": "/img/generated/sector-alimentacion-1920.webp"
+    }
+  },
+  "sector-aguas": {
+    "id": "sector-aguas",
+    "alt": "Estación de bombeo de tratamiento de aguas con grandes bombas centrífugas sobre bancadas de hormigón",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAIRAAAgEDAwUAAAAAAAAAAAAAAQIDAAQhBTNxERMiMWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AM19QupIpBOzsrqFYlevrIyaFEhi7oiIDHwJGG+UvtqPmon2l5opj//Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-aguas-480.avif",
+      "768": "/img/generated/sector-aguas-768.avif",
+      "1280": "/img/generated/sector-aguas-1280.avif",
+      "1920": "/img/generated/sector-aguas-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-aguas-480.webp",
+      "768": "/img/generated/sector-aguas-768.webp",
+      "1280": "/img/generated/sector-aguas-1280.webp",
+      "1920": "/img/generated/sector-aguas-1920.webp"
+    }
+  },
+  "sector-madera": {
+    "id": "sector-madera",
+    "alt": "Planta de carpintería con una lijadora de banda ancha y tablas apiladas",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMEBf/EACEQAAIBAwMFAAAAAAAAAAAAAAECAwAEERIzURMhcZHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMtLwRzSPJFHGJAAwUaRgHgUWMLyskalOpgo6t3HBFIud33Vdnvjwn2ib//Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-madera-480.avif",
+      "768": "/img/generated/sector-madera-768.avif",
+      "1280": "/img/generated/sector-madera-1280.avif",
+      "1920": "/img/generated/sector-madera-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-madera-480.webp",
+      "768": "/img/generated/sector-madera-768.webp",
+      "1280": "/img/generated/sector-madera-1280.webp",
+      "1920": "/img/generated/sector-madera-1920.webp"
+    }
+  },
+  "sector-plastico": {
+    "id": "sector-plastico",
+    "alt": "Nave de inyección de plástico con filas de máquinas, tolvas de material y un brazo robótico",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAIhAAAgEDAgcAAAAAAAAAAAAAAQIDAAQRBnESEzE0QUNy/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDPkkKWdtGFbk4BUZBDMepo005hjZWBQg4HD5G9Lj7K1+hUam9O1FMf/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-plastico-480.avif",
+      "768": "/img/generated/sector-plastico-768.avif",
+      "1280": "/img/generated/sector-plastico-1280.avif",
+      "1920": "/img/generated/sector-plastico-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-plastico-480.webp",
+      "768": "/img/generated/sector-plastico-768.webp",
+      "1280": "/img/generated/sector-plastico-1280.webp",
+      "1920": "/img/generated/sector-plastico-1920.webp"
+    }
+  },
+  "sector-packaging": {
+    "id": "sector-packaging",
+    "alt": "Zona de fin de línea de envasado con una encajadora y una paletizadora manejando cajas de cartón",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EACAQAAICAgAHAAAAAAAAAAAAAAEDAiEABBESMjRhcoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AzJb6pO4yXJQBqzV5WjaDHgCZY2Irms+MUeuX3C1+5V6nAv/Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-packaging-480.avif",
+      "768": "/img/generated/sector-packaging-768.avif",
+      "1280": "/img/generated/sector-packaging-1280.avif",
+      "1920": "/img/generated/sector-packaging-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-packaging-480.webp",
+      "768": "/img/generated/sector-packaging-768.webp",
+      "1280": "/img/generated/sector-packaging-1280.webp",
+      "1920": "/img/generated/sector-packaging-1920.webp"
+    }
+  },
+  "sector-agricola": {
+    "id": "sector-agricola",
+    "alt": "Taller de maquinaria agrícola con la toma de fuerza de un tractor y reductores en el suelo",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQT/xAAhEAABBAEDBQAAAAAAAAAAAAABAAIDEQQSEzQxMlFxwf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwASPP2HaoZKc11iroqiXelYA2Msf3Pro0eSSjMLlxp7N4E3r6EH/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/sector-agricola-480.avif",
+      "768": "/img/generated/sector-agricola-768.avif",
+      "1280": "/img/generated/sector-agricola-1280.avif",
+      "1920": "/img/generated/sector-agricola-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/sector-agricola-480.webp",
+      "768": "/img/generated/sector-agricola-768.webp",
+      "1280": "/img/generated/sector-agricola-1280.webp",
+      "1920": "/img/generated/sector-agricola-1920.webp"
+    }
+  },
+  "editorial-reparto": {
+    "id": "editorial-reparto",
+    "alt": "Furgoneta de reparto sin distintivos con las puertas traseras abiertas en un muelle de carga al amanecer",
+    "aspect": "3:2",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EACIQAAIBAgYDAQAAAAAAAAAAAAEDAgARBAUSITFxIzJRkf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAmYZjJuEmX4pimR2CxYE92rPBCZxUyWs6vfa/59qhm3kSJTAMrc2pCDmDC2EzbjoUh/9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/editorial-reparto-480.avif",
+      "768": "/img/generated/editorial-reparto-768.avif",
+      "1280": "/img/generated/editorial-reparto-1280.avif",
+      "1920": "/img/generated/editorial-reparto-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/editorial-reparto-480.webp",
+      "768": "/img/generated/editorial-reparto-768.webp",
+      "1280": "/img/generated/editorial-reparto-1280.webp",
+      "1920": "/img/generated/editorial-reparto-1920.webp"
+    }
+  },
+  "editorial-almacen-picking": {
+    "id": "editorial-almacen-picking",
+    "alt": "Pasillo de almacén con una carretilla de picking y una caja abierta de componentes mecánicos",
+    "aspect": "3:2",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEF/8QAIRAAAgEDBAMBAAAAAAAAAAAAAQIDAAQRBSEiMRJBocH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/ADW9zcT6bEJDwjwFKnljras+aVQ7IG8WwAwEojz8/aXpsjrBbqpwMdVdStYbWVZIIwjDfIPulI//2Q==",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/editorial-almacen-picking-480.avif",
+      "768": "/img/generated/editorial-almacen-picking-768.avif",
+      "1280": "/img/generated/editorial-almacen-picking-1280.avif",
+      "1920": "/img/generated/editorial-almacen-picking-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/editorial-almacen-picking-480.webp",
+      "768": "/img/generated/editorial-almacen-picking-768.webp",
+      "1280": "/img/generated/editorial-almacen-picking-1280.webp",
+      "1920": "/img/generated/editorial-almacen-picking-1920.webp"
+    }
+  },
+  "editorial-mostrador": {
+    "id": "editorial-mostrador",
+    "alt": "Mostrador de atención en una sucursal de suministro industrial, con un catálogo abierto y una pieza sobre la madera desgastada",
+    "aspect": "3:2",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwX/xAAeEAACAQUAAwAAAAAAAAAAAAACAwEABBEhMQUjQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEQMRAD8AC8DyrVrBhC7M+uBKCn72pF2m7tzAjWSzznet0KHtApgWFEDzfKpGw3BJtKWFERGS3Qshf//Z",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/editorial-mostrador-480.avif",
+      "768": "/img/generated/editorial-mostrador-768.avif",
+      "1280": "/img/generated/editorial-mostrador-1280.avif",
+      "1920": "/img/generated/editorial-mostrador-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/editorial-mostrador-480.webp",
+      "768": "/img/generated/editorial-mostrador-768.webp",
+      "1280": "/img/generated/editorial-mostrador-1280.webp",
+      "1920": "/img/generated/editorial-mostrador-1920.webp"
+    }
+  },
+  "editorial-planta": {
+    "id": "editorial-planta",
+    "alt": "Técnico de mantenimiento visto de espaldas, arrodillado junto al motor de una cinta transportadora con la caja de herramientas abierta",
+    "aspect": "3:2",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAIhAAAgAFAwUAAAAAAAAAAAAAAQIAAwQRIgUSMRMhQVGB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDHlrTqyhrlUyOPAvwYaNRYyFSnp9hK5BDlYE/fUPl6fStZzIXcfI7RSU8qm6hkoEJ5tAY//9k=",
+    "widths": [
+      480,
+      768,
+      1280,
+      1920
+    ],
+    "avif": {
+      "480": "/img/generated/editorial-planta-480.avif",
+      "768": "/img/generated/editorial-planta-768.avif",
+      "1280": "/img/generated/editorial-planta-1280.avif",
+      "1920": "/img/generated/editorial-planta-1920.avif"
+    },
+    "webp": {
+      "480": "/img/generated/editorial-planta-480.webp",
+      "768": "/img/generated/editorial-planta-768.webp",
+      "1280": "/img/generated/editorial-planta-1280.webp",
+      "1920": "/img/generated/editorial-planta-1920.webp"
+    }
+  },
+  "blog-placa-caracteristicas": {
+    "id": "blog-placa-caracteristicas",
+    "alt": "Primer plano macro de la placa de características de un motor eléctrico industrial",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQT/xAAiEAABBAECBwAAAAAAAAAAAAABAAIDBBEFQRQjNFFhcsH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AA6UsUrzxEbnMZ2O6ojp0bNrlF5haC55xjHhBbFJaT09r1+FEf/Z",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-placa-caracteristicas-480.avif",
+      "768": "/img/generated/blog-placa-caracteristicas-768.avif",
+      "1280": "/img/generated/blog-placa-caracteristicas-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-placa-caracteristicas-480.webp",
+      "768": "/img/generated/blog-placa-caracteristicas-768.webp",
+      "1280": "/img/generated/blog-placa-caracteristicas-1280.webp"
+    }
+  },
+  "blog-sufijos-rodamientos": {
+    "id": "blog-sufijos-rodamientos",
+    "alt": "Primer plano macro del grabado de referencia en el lateral de un rodamiento",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQID/8QAJBAAAgAEBAcAAAAAAAAAAAAAAQIAAwQREiEycQUTIjNRscH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC51cOITGmzrS7tiuF1HxnE1lXzZ5V1c9GFQrBbEDbOD6rU249CMp3bXYfYI/9k=",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-sufijos-rodamientos-480.avif",
+      "768": "/img/generated/blog-sufijos-rodamientos-768.avif",
+      "1280": "/img/generated/blog-sufijos-rodamientos-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-sufijos-rodamientos-480.webp",
+      "768": "/img/generated/blog-sufijos-rodamientos-768.webp",
+      "1280": "/img/generated/blog-sufijos-rodamientos-1280.webp"
+    }
+  },
+  "blog-errores-variador": {
+    "id": "blog-errores-variador",
+    "alt": "Primer plano macro de la pantalla y el teclado de un variador de frecuencia industrial",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAIRAAAQQCAAcAAAAAAAAAAAAAAQIDBBEAIRIxMjNCcrH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMqE4mStRcPJBIsWLqr3q8LLcLL/AFcd2CFAZEDz9D9w8junCP/Z",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-errores-variador-480.avif",
+      "768": "/img/generated/blog-errores-variador-768.avif",
+      "1280": "/img/generated/blog-errores-variador-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-errores-variador-480.webp",
+      "768": "/img/generated/blog-errores-variador-768.webp",
+      "1280": "/img/generated/blog-errores-variador-1280.webp"
+    }
+  },
+  "blog-equivalencias": {
+    "id": "blog-equivalencias",
+    "alt": "Primer plano macro de varios rodamientos genéricos de distinto tamaño dispuestos en fila para comparar",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBv/EABwQAAICAwEBAAAAAAAAAAAAAAECABEDITFBwf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Az6KhQrQFijXe6gMWRELIS2qIvYH2QrGeQj//2Q==",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-equivalencias-480.avif",
+      "768": "/img/generated/blog-equivalencias-768.avif",
+      "1280": "/img/generated/blog-equivalencias-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-equivalencias-480.webp",
+      "768": "/img/generated/blog-equivalencias-768.webp",
+      "1280": "/img/generated/blog-equivalencias-1280.webp"
+    }
+  },
+  "blog-reparar-o-sustituir": {
+    "id": "blog-reparar-o-sustituir",
+    "alt": "Primer plano macro de una placa de circuito de un variador de frecuencia abierto",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQP/xAAhEAACAgECBwAAAAAAAAAAAAABAgMEABESMTQ1QXJzsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AIlFOzKRWj2QIwDLu0Ygd8japiOu8yRNEg0Kh213A8MPr8zH5Y3c6bF7G+YR//9k=",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-reparar-o-sustituir-480.avif",
+      "768": "/img/generated/blog-reparar-o-sustituir-768.avif",
+      "1280": "/img/generated/blog-reparar-o-sustituir-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-reparar-o-sustituir-480.webp",
+      "768": "/img/generated/blog-reparar-o-sustituir-768.webp",
+      "1280": "/img/generated/blog-reparar-o-sustituir-1280.webp"
+    }
+  },
+  "blog-seleccion-motor": {
+    "id": "blog-seleccion-motor",
+    "alt": "Primer plano macro de la caja de bornes abierta de un motor eléctrico industrial",
+    "aspect": "16:9",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EACEQAAIBAwMFAAAAAAAAAAAAAAECEQADBAUhNDFxcnOy/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDCxmD2FFtBKbQBuT1LHtTsnISzbRCpLsJkrBAqXT+NmeC/QodU5a+taI//2Q==",
+    "widths": [
+      480,
+      768,
+      1280
+    ],
+    "avif": {
+      "480": "/img/generated/blog-seleccion-motor-480.avif",
+      "768": "/img/generated/blog-seleccion-motor-768.avif",
+      "1280": "/img/generated/blog-seleccion-motor-1280.avif"
+    },
+    "webp": {
+      "480": "/img/generated/blog-seleccion-motor-480.webp",
+      "768": "/img/generated/blog-seleccion-motor-768.webp",
+      "1280": "/img/generated/blog-seleccion-motor-1280.webp"
+    }
+  },
+  "state-404": {
+    "id": "state-404",
+    "alt": "Media pieza de un acoplamiento desconectada sobre un suelo de hormigón, vista cenital",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAHBAAAwACAwEAAAAAAAAAAAAAAQIDABEEIUEx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN7XXjxNH2VGt6HeEunIiKICFO9b+5IVazM6KGRh2D7gIsoLOahUHQA8wE//2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/state-404-480.avif",
+      "768": "/img/generated/state-404-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/state-404-480.webp",
+      "768": "/img/generated/state-404-768.webp"
+    }
+  },
+  "state-empty-cart": {
+    "id": "state-empty-cart",
+    "alt": "Cubeta de picking de almacén vacía, de plástico gris, vista cenital",
+    "aspect": "1:1",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQIF/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIDBQARBBITITFhcf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDct7UVccTtC0vkYroHWvWFXaCySRvC0PU6AY73jaV6WCRhmIMTdgB8H9yODw34zknWvrEP/9k=",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/state-empty-cart-480.avif",
+      "768": "/img/generated/state-empty-cart-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/state-empty-cart-480.webp",
+      "768": "/img/generated/state-empty-cart-768.webp"
+    }
+  },
+  "state-no-results": {
+    "id": "state-no-results",
+    "alt": "Hueco vacío entre dos estanterías completas en un almacén",
+    "aspect": "4:3",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAIBAAAgEEAgMBAAAAAAAAAAAAAQIRAAMEIRKRIiQyQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAQf/aAAwDAQACEQMRAD8Az2vYREZl222Kho6iaV9RjY13iyclYqG4gdTUDHHx/AyQsy2zRNxr+O4c/RnX4YoNf//Z",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/state-no-results-480.avif",
+      "768": "/img/generated/state-no-results-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/state-no-results-480.webp",
+      "768": "/img/generated/state-no-results-768.webp"
+    }
+  },
+  "texture-grid": {
+    "id": "texture-grid",
+    "alt": "",
+    "aspect": "1:1",
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAQABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIG/8QAIBAAAQQCAQUAAAAAAAAAAAAAAQIDBBEAITEFEhNBUf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDRS5LcRrvcPOkp9qPzChTWuoMFxoEUaUlXIOLNiNzGfG5qjYI5ByIUJEJooQbs2okbJxD/2Q==",
+    "widths": [
+      480,
+      768
+    ],
+    "avif": {
+      "480": "/img/generated/texture-grid-480.avif",
+      "768": "/img/generated/texture-grid-768.avif"
+    },
+    "webp": {
+      "480": "/img/generated/texture-grid-480.webp",
+      "768": "/img/generated/texture-grid-768.webp"
+    }
+  }
+}

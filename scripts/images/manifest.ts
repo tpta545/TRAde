@@ -24,8 +24,15 @@ export type ImageAsset = {
   aspect: AspectRatio;
   size: ImageSize;
   model: ModeloGemini;
-  /** "product" compone con STYLE_PRODUCT_ILLU (Grupo 2); el resto usa STYLE_BASE. */
-  styleVariant: "editorial" | "product";
+  /**
+   * "product" compone con STYLE_PRODUCT_ILLU (Grupo 2); "editorial" usa
+   * STYLE_BASE; "texture" no añade ningún encuadre de fotografía de
+   * producto/editorial (solo STYLE_NEGATIVE) — necesario para texture-grid,
+   * donde STYLE_PRODUCT_ILLU ("single generic component centred... catalogue
+   * aesthetic") competía con "seamless tileable texture" y el modelo
+   * generaba una pieza suelta en vez de una textura de fondo.
+   */
+  styleVariant: "editorial" | "product" | "texture";
   alt: string;
   overlay: OverlayTratamiento;
   /** true → decorativa, se sirve con alt="" y aria-hidden. Solo texture-grid. */
@@ -555,11 +562,12 @@ export const IMAGE_MANIFEST: ImageAsset[] = [
   {
     id: "texture-grid",
     usage: "Fondo de secciones oscuras (pie de página)",
-    prompt: "Seamless subtle texture of brushed dark metal with a faint perforated grid pattern, very low contrast, tileable.",
+    prompt:
+      "Extreme close-up photograph of a large flat sheet of brushed dark grey metal, filling the entire frame edge to edge with no discrete object, no silhouette and no edges visible, a few faint scattered small round holes visible across the surface, very low contrast, even diffuse studio lighting, no vignette, no shadow.",
     aspect: "1:1",
     size: "1K",
     model: "gemini-3.1-flash-lite-image",
-    styleVariant: "product",
+    styleVariant: "texture",
     alt: "",
     overlay: "none",
     decorative: true,
