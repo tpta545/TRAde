@@ -19,7 +19,7 @@ export function ProductCard({ producto }: { producto: Producto }) {
           alt={imagen?.alt ?? producto.nombre}
           width={400}
           height={400}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
         />
       </div>
       <div className="flex flex-1 flex-col gap-1.5 p-4">
