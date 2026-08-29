@@ -20,7 +20,7 @@ export async function FamilyGrid() {
             <Link
               key={familia}
               href={`/productos/${familia}`}
-              className="group overflow-hidden rounded-sm border border-trade-gray-200 transition-colors hover:border-trade-red"
+              className="group overflow-hidden rounded-sm border border-trade-gray-200 bg-trade-white transition-all duration-150 hover:-translate-y-1 hover:border-trade-red hover:shadow-md"
             >
               <div className="relative aspect-[4/3] bg-trade-gray-050">
                 {imagenId && (

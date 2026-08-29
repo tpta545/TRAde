@@ -18,7 +18,7 @@ export function SectorGrid() {
             <Link
               key={slug}
               href={`/soluciones/${slug}`}
-              className="group relative block aspect-[4/3] overflow-hidden rounded-sm"
+              className="group relative block aspect-[4/3] overflow-hidden rounded-sm transition-all duration-150 hover:-translate-y-1 hover:shadow-lg"
             >
               <ImagenGenerada
                 id={`sector-${slug}`}

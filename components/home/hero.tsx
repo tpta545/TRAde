@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SearchOmnibox } from "@/components/layout/search-omnibox";
 import { ImagenGenerada } from "@/components/media/imagen-generada";
+import { Reveal } from "@/components/ui/reveal";
 import { siteConfig } from "@/config/site";
 
 const CHIPS_BUSQUEDA_RAPIDA = [
@@ -15,7 +16,12 @@ export function Hero() {
   return (
     <section className="relative flex h-[62vh] min-h-[440px] items-center overflow-hidden bg-trade-ink text-trade-white sm:h-[62vh] max-sm:h-[78vh]">
       <div className="absolute inset-0">
-        <ImagenGenerada id="hero-home" sizes="100vw" priority className="object-cover" />
+        <ImagenGenerada
+          id="hero-home"
+          sizes="100vw"
+          priority
+          className="hero-kenburns object-cover motion-reduce:animate-none"
+        />
         {/* Degradado izquierda→derecha para sostener el texto (Parte V.3, regla 5) */}
         <div
           className="absolute inset-0"
@@ -28,30 +34,34 @@ export function Hero() {
 
       <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-heading font-semibold leading-[1.05] sm:text-5xl lg:text-6xl">
-            El recambio industrial que necesitas hoy, mañana en tu planta.
-          </h1>
-          <p className="mt-4 max-w-xl text-white/75">
-            Distribuidor oficial de {siteConfig.marcas.join(", ")}. Stock propio en{" "}
-            {siteConfig.direccion.localidad}, reparto propio en toda la Comunitat Valenciana y
-            envío a toda España.
-          </p>
+          <Reveal>
+            <h1 className="text-4xl font-heading font-semibold leading-[1.05] sm:text-5xl lg:text-6xl">
+              El recambio industrial que necesitas hoy, mañana en tu planta.
+            </h1>
+          </Reveal>
+          <Reveal delayMs={120}>
+            <p className="mt-4 max-w-xl text-white/75">
+              Distribuidor oficial de {siteConfig.marcas.join(", ")}. Stock propio en{" "}
+              {siteConfig.direccion.localidad}, reparto propio en toda la Comunitat Valenciana y
+              envío a toda España.
+            </p>
+          </Reveal>
 
-          <div className="mt-8 max-w-xl">
+          <Reveal delayMs={240} className="mt-8 max-w-xl">
             <SearchOmnibox tamano="lg" />
-          </div>
+          </Reveal>
 
-          <div className="mt-4 flex flex-wrap items-center gap-2">
+          <Reveal delayMs={360} className="mt-4 flex flex-wrap items-center gap-2">
             {CHIPS_BUSQUEDA_RAPIDA.map((chip) => (
               <Link
                 key={chip.href}
                 href={chip.href}
-                className="rounded-full border border-white/20 px-3 py-1.5 text-sm text-white/80 hover:border-white/40 hover:text-white"
+                className="rounded-full border border-white/20 px-3 py-1.5 text-sm text-white/80 transition-colors hover:border-white/40 hover:text-white"
               >
                 {chip.etiqueta}
               </Link>
             ))}
-          </div>
+          </Reveal>
         </div>
       </div>
     </section>

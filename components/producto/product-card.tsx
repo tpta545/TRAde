@@ -11,7 +11,7 @@ export function ProductCard({ producto }: { producto: Producto }) {
   return (
     <Link
       href={href}
-      className="group flex flex-col overflow-hidden rounded-lg border border-trade-gray-200 bg-trade-white transition-shadow hover:shadow-md"
+      className="group flex flex-col overflow-hidden rounded-lg border border-trade-gray-200 bg-trade-white transition-all duration-150 hover:-translate-y-1 hover:border-trade-gray-200 hover:shadow-md"
     >
       <div className="aspect-square bg-trade-gray-050">
         <Image
@@ -19,7 +19,7 @@ export function ProductCard({ producto }: { producto: Producto }) {
           alt={imagen?.alt ?? producto.nombre}
           width={400}
           height={400}
-          className="h-full w-full object-contain"
+          className="h-full w-full object-contain transition-transform duration-150 group-hover:scale-[1.03]"
         />
       </div>
       <div className="flex flex-1 flex-col gap-1.5 p-4">

@@ -141,7 +141,7 @@
   h2,
   h3,
   h4 {
-    @apply font-heading font-semibold tracking-tight;
+    @apply font-heading font-semibold tracking-tight text-balance;
   }
 
   /* Foco: mismo tratamiento en toda la web, visible solo con teclado
@@ -217,5 +217,19 @@
   .badge-dot {
     @apply h-2 w-2 rounded-full;
     background-color: currentColor;
+  }
+
+  /* Zoom lento sobre imágenes de hero, sin repetir ni volver atrás
+     (forwards): sensación de cámara viva sin distraer. */
+  .hero-kenburns {
+    animation: hero-kenburns 16s ease-out forwards;
+  }
+  @keyframes hero-kenburns {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.08);
+    }
   }
 }

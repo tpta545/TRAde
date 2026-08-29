@@ -13,7 +13,7 @@ export function BrandGrid() {
             <Link
               key={marca}
               href={`/marcas/${marca.toLowerCase()}`}
-              className="flex h-24 items-center justify-center rounded-lg border border-trade-gray-200 bg-trade-white font-heading text-xl font-semibold text-trade-gray-500 transition-colors hover:border-trade-red hover:text-trade-red"
+              className="flex h-24 items-center justify-center rounded-lg border border-trade-gray-200 bg-trade-white font-heading text-xl font-semibold text-trade-gray-500 transition-all duration-150 hover:-translate-y-1 hover:border-trade-red hover:text-trade-red hover:shadow-md"
             >
               {marca}
             </Link>

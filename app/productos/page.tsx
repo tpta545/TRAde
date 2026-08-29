@@ -31,7 +31,7 @@ export default async function ProductosPage() {
             <Link
               key={familia}
               href={`/productos/${familia}`}
-              className="group flex flex-col justify-between rounded-lg border border-trade-gray-200 bg-trade-white p-5 transition-shadow hover:shadow-md"
+              className="group flex flex-col justify-between rounded-lg border border-trade-gray-200 bg-trade-white p-5 transition-all duration-150 hover:-translate-y-1 hover:shadow-md"
             >
               <div>
                 <h2 className="text-lg font-heading font-semibold text-trade-gray-900 group-hover:text-trade-red">

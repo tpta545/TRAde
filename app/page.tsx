@@ -7,19 +7,36 @@ import { SectorGrid } from "@/components/home/sector-grid";
 import { ComoTrabajamos } from "@/components/home/como-trabajamos";
 import { SocialProof } from "@/components/home/social-proof";
 import { BlogNewsletter } from "@/components/home/blog-newsletter";
+import { Reveal } from "@/components/ui/reveal";
 
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col">
       <Hero />
-      <TrustBar />
-      <FamilyGrid />
-      <BrandGrid />
-      <RepairBlock />
-      <SectorGrid />
-      <ComoTrabajamos />
-      <SocialProof />
-      <BlogNewsletter />
+      <Reveal>
+        <TrustBar />
+      </Reveal>
+      <Reveal>
+        <FamilyGrid />
+      </Reveal>
+      <Reveal>
+        <BrandGrid />
+      </Reveal>
+      <Reveal>
+        <RepairBlock />
+      </Reveal>
+      <Reveal>
+        <SectorGrid />
+      </Reveal>
+      <Reveal>
+        <ComoTrabajamos />
+      </Reveal>
+      <Reveal>
+        <SocialProof />
+      </Reveal>
+      <Reveal>
+        <BlogNewsletter />
+      </Reveal>
     </main>
   );
 }

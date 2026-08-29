@@ -27,12 +27,12 @@ export function ComoTrabajamos() {
         </h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
           {PASOS.map((paso, indice) => (
-            <div key={paso.imagenId}>
+            <div key={paso.imagenId} className="group">
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                 <ImagenGenerada
                   id={paso.imagenId}
                   sizes="(max-width: 640px) 100vw, 33vw"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-[1.04]"
                 />
               </div>
               <p className="mt-4 font-mono text-xs text-trade-gray-500">0{indice + 1}</p>
