@@ -9,6 +9,7 @@
     "lint": "next lint",
     "import:productos": "tsx scripts/import-productos.ts",
     "sync:erp": "tsx scripts/sync-erp-nocturno.ts",
+    "sync:shopify": "tsx scripts/sync-shopify.ts",
     "images:gen": "tsx scripts/images/generate.ts",
     "images:gen:force": "tsx scripts/images/generate.ts --force",
     "images:optimize": "tsx scripts/images/optimize.ts",
